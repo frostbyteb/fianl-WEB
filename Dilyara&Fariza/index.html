@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Shelter</title>
+    <link rel="icon" type="image/x-icon" href="logo/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-paw"></i>  meowVille</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#category">Pet adoption list</a>
+        <a href="#featured">products</a>
+        <a href="#ourstory">our story</a>
+        <a href="#team">team</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">contact</a>
+
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+    <form action="" id="search-box">
+        <input type="search" id="search" placeholder="search here">
+        <label for="search" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>There Are Shelters,</h3>
+        <audio id="audio">
+            <source src="logo/playful-notification.mp3" type="audio/mpeg" />
+        </audio>
+        <button id="button" class="btn">Get Started</button>        
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+
+<!-- offer section starts  -->
+
+<section class="offer" id="offer">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> About us <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/offer-img1.webp" alt="">
+            <div class="content">
+                <span>We help homeless animals <br> find a forever home.</span>
+                <h3>our story</h3>
+                <a href="#ourstory" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/offer-img2.webp" alt="">
+            <div class="content">
+                <span>Saving one animal will change your life forever.</span>
+                <h3>Adoption Success Stories</h3>
+                <a href="#ourstory" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- offer section ends -->
+
+
+<!-- category section starts  -->
+
+<section class="category" id="category">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> adopt by category <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="images/dog 5.jpg" alt="">
+            <h3>Adopt dogs</h3>
+            <a href="#" class="btn">adopt now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat 1.jpg" alt="">
+            <h3>Adopt cats</h3>
+            <a href="#" class="btn">adopt now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/rabbit 2.jpg" alt="">
+            <h3>Adopt rabbits</h3>
+            <a href="#" class="btn">adopt now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/bird 1.jpg" alt="">
+            <h3>Adopt birds</h3>
+            <a href="#" class="btn">adopt now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- carousel section starts  -->
+<section id="mycarouse">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+     <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/ph1.jpg" class="images">
+        <div class="carousel-caption">
+          <h3><strong>Milo</strong></h3>
+          <h5><em>Gentle and friendly</em></h5>
+        </div>   
+      </div>
+      <div class="carousel-item">
+       <img src="images/ph2.jpg"  class="images">
+       <div class="carousel-caption">
+        <h3>Bruno</h3>
+        <h5>Playful and affectionete</h5>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/ph3.jpg"  class="images">
+      <div class="carousel-caption">
+        <h3>Oliver and Bella</h3>
+        <h5>Energetic and curious</h5>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="images/ph4.jpg"  class="images">
+      <div class="carousel-caption">
+        <h3>Chloe</h3>
+        <h5>Calm and docile</h5>
+      </div>    
+    </div>
+  
+    <div class="carousel-item">
+      <img src="images/ph5.jpg"  class="images">
+      <div class="carousel-caption">
+        <h3>Simba & Timon & Pumba</h3>
+        <h5>Playful and affectionete</h5>
+      </div>    
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+  </div>
+  
+  </section>
+
+<!-- carousel section ends  -->
+
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our featured products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="price">$14.05</div>
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, facilis?</p>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="price">$15.40</div>
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, facilis?</p>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <span>upto 70% off</span>
+    <h3>tasty and healthy pets food</h3>
+    <a href="#" class="btn">see the deal now</a>
+
+</section>
+
+<!-- deal section ends -->
+
+
+
+<!-- products section starts  -->
+<section class="products" id="products">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p3.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p4.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p5.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p6.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="product">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- product section ends -->
+
+
+<!-- ourstory section starts -->
+<section class="ourstory" id="ourstory">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> About Us<i class="fas fa-paw"></i> </h1>
+
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MTRsov46jmk?autoplay=1"></iframe>
+</div>
+</section>
+
+
+<section class="image-callout image-right">
+    
+    <ul class="list-unstyled">
+        <li class="media">
+          <img src="images/date1.jpg" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1"><b>   Our first step!</b></h5>
+            <p> Me and my friend Fariza have been saving animals since childhood. I constantly brought home found kittens, puppies, turtles. At a more conscious age, she volunteered at the White Bim shelter, and then to other shelters and foundations. </p>
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="images/date2.jpg" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1"><b>   “MeowVille” foundation</b></h5>
+            <p> For a long time I was looking for a place where I would be comfortable working with animals, and after some time, together with Fariza, we opened the “MeowVille” foundation, bought a plot of 12 acres, moved there and began to keep some animals so as not to pay for overexposure.</p>
+          </div>
+        </li>
+        <li class="media">
+          <img src="images/date3.jpg" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1"><b>   Realeased project!</b></h5>
+            <p> Soon it became cramped there, and grandma bought us another six acres, and after that we moved from the old house to a new territory, where the shelter is now located. And for a year now we have been keeping a shelter and completing it.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+<!-- ourstory section ends -->
+
+
+<!-- team section starts  -->
+<section id="team" class="container py-3">
+    <h1 class="heading"> <i class="fas fa-paw"></i> our team <i class="fas fa-paw"></i> </h1>
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <h6 class="display-6 text-dark"><b>Our mission is to save the lives of all healthy and treatable animals ! </b></h6>
+            <p class="text-dark"></p>
+        </div>
+
+        <div class="col-12 text-center ">
+            <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+            <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+            <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+            <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+            <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid small-screen-img" src="images/s2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="py-2 pb-0"><i> Anya Sherbakova</i></h4>
+                            <h5><b>content creator</b></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid small-screen-img" src="images/s3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="py-2 pb-0"><i>Alima Kulumshina</i></h4>
+                            <h5><b>the Chairman "Animal Shelter"</b></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid small-screen-img" src="images/s1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="py-2 pb-0"><i>Veronika Zhangalova</i></h4>
+                            <h5><b>director</b></h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team section ends  -->
+
+
+
+<!-- feedback section stars  -->
+<section  class="container-fluid bg-white py-3 bg-white mt-5">
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <h2 class="display-6 text-dark"><b>Client Feedback</b></h2>
+      </div>
+  
+      <div class="col-12 text-center">
+        <i class="fa fa-star-o text-dark" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-dark" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-dark" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-dark" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-dark" aria-hidden="true"></i>
+      </div>
+    </div>
+  
+    <div class="row pt-5">
+        <div class="col-12">
+          <blockquote class="blockquote text-center">
+            <img class="rounded-circle img-fluid mb-3" src="images/feed1.jpg" alt="" width="200" height="200">
+            <p class="mb-0 text-dark" style="font-size: 20px;">I wanted to express my sincere appreciation for the exceptional care and dedication you show to the animals. Your commitment and compassion are truly remarkable. Thank you for all that you do!</p>
+        </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- feedback section ends  -->
+
+
+
+
+    <!-- FAQ -->
+
+<section id="faq" class="container py-3" >
+
+    <div class="row py-5">
+      <div class="col-12 text-center">
+        <h1 class="heading"> <i class="fas fa-paw"></i> Frequently Asked Questions<i class="fas fa-paw"></i> </h1>
+        <p class="display-6 text-violet">Feel free to ask me questions. We are always ready to answer them !</p>
+      </div>
+  
+      <div class="col-12 text-center">
+        <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-white" aria-hidden="true"></i>
+      </div>
+    </div>
+    
+      <div class="row">
+    
+        <div class="col-12 col-lg-6">
+          <div class="accordion" id="accordion_1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading_1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                  How did we achieve all this?
+                </button>
+              </h2>
+              <div id="collapse_1" class="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#accordion_1">
+                <div class="accordion-body">
+                  <strong>Effective advertising plays a pivotal role in the success of an online store.</strong> In today's highly competitive digital marketplace, it's essential to employ a variety of strategies to stand out. Social media advertising is a powerful tool, allowing businesses to target specific demographics and engage with potential customers. Additionally, search engine optimization (SEO) is crucial for ensuring the website ranks well in search engine results, making it easily discoverable. Collaborating with influencers and utilizing pay-per-click advertising further enhances the store's visibility and drives sales growth.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading_2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                    What are the pet adoption fees?
+                </button>
+              </h2>
+              <div id="collapse_2" class="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordion_1">
+                <div class="accordion-body">
+                    Although it costs The Animal Foundation an average of over $300 to care for each adoptable pet, we work constantly to eliminate price barriers, so homeless animals can find a forever home. This is why we are committed to everyday low prices, so people don’t need to wait for a special promotion to adopt a pet.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading_3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+                    What does your pet adoption fee include?
+                </button></h2>
+                <div id="collapse_3" class="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordion_1">
+                  <div class="accordion-body">
+                    Adoption fees include spay and neuter surgery, all current vaccinations, and a microchip. Additionally, adopters at our campus Adoption Center will receive a transition bag of Hill’s Science Diet pet food (dogs and cats only), a coupon for $5 off Hill’s Science Diet, and a voucher for a complimentary wellness exam at a participating veterinary hospital partner. Adopters of cats and dogs from The Animal Foundation are pre-certified for pet health insurance for their furry friends. Upon adoption, Companion Protect offers immediate coverage for those expensive surgeries, treatments and illnesses that may surprise a pet parent. The policy provides up to 90% coverage for eligible veterinary costs and includes free annual wellness exams at Vetwork Partners. The program helps prepare new pet parents with unexpected veterinary costs and ensures your pet has access to proper medical care.
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+      
+          <div class="col-12 col-lg-6">
+            <div class="accordion" id="accordion_2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading_4">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+                What if I’m afraid to commit to forever?
+                  </button>
+                </h2>
+                <div id="collapse_4" class="accordion-collapse collapse show" aria-labelledby="heading_4" data-bs-parent="#accordion_2">
+                  <div class="accordion-body">
+                If you are not sure about a permanent adoption, ask a counselor about our Foster-to-Adopt program that lets potential adopters house a pet temporarily — generally over a two-week period – to see if that pet is a good fit with family members and even other pets. This program is designed to give potential adopters more time and experience with an animal before they make a lifetime commitment.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading_5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+                Why don’t the dog profiles tell me what breed the dog is?
+                 </button>
+               </h2>
+               <div id="collapse_5" class="accordion-collapse collapse" aria-labelledby="heading_5" data-bs-parent="#accordion_2">
+                <div class="accordion-body">
+                In keeping with best practices within the animal welfare community, The Animal Foundation will only identify a breed if there is proof of registration from the American Kennel Club. Research has shown that sight-based identification of breeds is highly unreliable and can be misleading. Dogs and cats are as individual as people are. The best way to learn about the personality of an individual pet is to visit the shelter, spend time with the pet and ask one of our adoption counselors about the pet you are considering
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading_6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+                What happens if I have an issue or challenge and can’t keep the pet?
+            </button>
+          </h2>
+          <div id="collapse_6" class="accordion-collapse collapse" aria-labelledby="heading_6" data-bs-parent="#accordion_2">
+            <div class="accordion-body">
+            If you still have questions after viewing our FAQ section, for the quickest reply, please email our adoptions team at adoptions@animalfoundation.com. You can also call the adoptions department at 702-955-5901.
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<!-- faq section ends  -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> contact us <i class="fas fa-paw"></i> </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+    
+    <div class="share">
+        <a href="https://www.youtube.com/" class="btn">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/" class="btn">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" class="btn">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/" class="btn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/" class="btn">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <h1 class="credit"> Dilyara & Fariza </h1>
+
+</section>
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
